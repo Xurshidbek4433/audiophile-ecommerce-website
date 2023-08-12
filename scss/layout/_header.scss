@@ -1,0 +1,24 @@
+.header {
+  width: 100%;
+  background-color: #0e0e0e;
+}
+
+.header-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9.5rem;
+  border-bottom: 1px solid $white-color;
+}
+
+.header-item-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 430px;
+}
+
+.header-list-inner {
+  color: $white-color;
+}

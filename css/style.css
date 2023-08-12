@@ -347,11 +347,11 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 @font-face {
@@ -466,6 +466,31 @@ h6 {
 .shop-btn:hover .shop-btn__text {
   color: #d87d4a;
   opacity: 1;
+}
+
+.header {
+  width: 100%;
+  background-color: #0e0e0e;
+}
+
+.header-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9.5rem;
+  border-bottom: 1px solid #ffffff;
+}
+
+.header-item-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 430px;
+}
+
+.header-list-inner {
+  color: #ffffff;
 }
 
 main {
